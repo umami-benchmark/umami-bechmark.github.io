@@ -1,0 +1,5955 @@
+{
+  "schema": 1,
+  "scope": "18 saved TEST examples (three pairs per task), not live model inference or a performance sample.",
+  "selection": "The original pair per task is retained. Two additional pairs are selected by sorted instance ID from distinct question types, substitution goals, or recommendation strata. Selection is independent of model success.",
+  "photos": [
+    {
+      "id": "photo-037",
+      "food_code": "56205000",
+      "name": "Rice, cooked, NFS",
+      "src": "media/d2780b2d6b962b6096370c88.jpg",
+      "credit": "Halima Waziri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_food_flask_of_cooked_white_rice.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-038",
+      "food_code": "51180010",
+      "name": "Bagel",
+      "src": "media/2c48ee0c42237cce49ce01d3.jpg",
+      "credit": "Evan-Amos",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bagel-Plain-Alt.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-039",
+      "food_code": "51136000",
+      "name": "Bruschetta",
+      "src": "media/e23b7f951ece2942ae87b988.jpg",
+      "credit": "Michael_Spencer",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/76135747@N00/2881896624",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-040",
+      "food_code": "14103010",
+      "name": "Cheese, Camembert",
+      "src": "media/452bd945ef4d5b8169a26e51.jpg",
+      "credit": "Coyau",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Camembert_de_Normandie_%28AOP%29_12.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-041",
+      "food_code": "13110110",
+      "name": "Ice cream, chocolate",
+      "src": "media/db51f48d751cf1299e3b5cbd.jpg",
+      "credit": "Kanko*",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/29282750@N00/68944042",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-042",
+      "food_code": "24198731",
+      "name": "Chicken nuggets, from fast food",
+      "src": "media/dd9d5101a89daf831d5226a0.jpg",
+      "credit": "Evan-Amos",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Burger-King-Chicken-Tenders.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-043",
+      "food_code": "11553110",
+      "name": "Fruit smoothie, with whole fruit and dairy",
+      "src": "media/09f36aeb69a460d29797b9d7.jpg",
+      "credit": "adactio",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/74105777@N00/1422346285",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-044",
+      "food_code": "13210370",
+      "name": "Creme brulee",
+      "src": "media/48912b1b6f73711ca1e3b88c.jpg",
+      "credit": "Takeaway",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-045",
+      "food_code": "25210110",
+      "name": "Frankfurter or hot dog, NFS",
+      "src": "media/4242cc47c98a77581c87bbb7.jpg",
+      "credit": "bob walker from London, UK",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hot_dog_at_costco_%289384083370%29.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-046",
+      "food_code": "27350020",
+      "name": "Paella with seafood",
+      "src": "media/5abacc343e830ed3d7f23b00.jpg",
+      "credit": "Roderick Suñaz Sumalinog",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Seafoods_paella.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-047",
+      "food_code": "28310330",
+      "name": "Pho",
+      "src": "media/bfff1c0f0a57d55481399c0b.jpg",
+      "credit": "Hermann Luyken",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2016.10.14.133502_Noodle_soup_beef_Pho_Bac_Vietnamese_restaurant_Seattle_Washington_USA.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-048",
+      "food_code": "53100100",
+      "name": "Cake or cupcake, NS as to type",
+      "src": "media/a92ddda5cc2b9c59e27604f6.jpg",
+      "credit": "Lisa Zins",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/94846844@N04/33399391412",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-007",
+      "food_code": "91734200",
+      "name": "Reese's Pieces",
+      "src": "media/c4b7bac2802a2201ac3213b8.jpg",
+      "credit": "Evan-Amos",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Reeses-pieces-loose.JPG",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-049",
+      "food_code": "11512110",
+      "name": "Hot chocolate / Cocoa, ready to drink, made with nonfat milk and whipped cream",
+      "src": "media/047741c4bd2da24be5a9d9f5.jpg",
+      "credit": "Focx Photography",
+      "license": "CC-BY-SA-2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_url": "https://www.flickr.com/photos/30780900@N02/4208264709",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-050",
+      "food_code": "11560000",
+      "name": "Chocolate milk drink",
+      "src": "media/857b1b40265f689f8422c04e.jpg",
+      "credit": "digitalmindphotography",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/91981804@N04/8359421866",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-051",
+      "food_code": "14202010",
+      "name": "Cheese, cottage, with fruit",
+      "src": "media/c998c80a85378f6623081f15.jpg",
+      "credit": "U.S. Department of Agriculture\n\nKen Hammond",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/20120106-OC-AMW-0752_%287943576876%29.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-052",
+      "food_code": "27120060",
+      "name": "Sweet and sour pork",
+      "src": "media/3f9418248555bbb6b0dce9ef.jpg",
+      "credit": "TOMW maowu LOU ShaSha",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/HK_SWH_%E8%A5%BF%E7%81%A3%E6%B2%B3_Sai_Wan_Ho_SKW_%E7%AD%B2%E7%AE%95%E7%81%A3%E9%81%93_33_Shau_Kei_Wan_Road_shop_%E9%BA%97%E7%81%A3%E5%A4%A7%E5%BB%88_Lai_Wan_Building_%E6%B5%B7%E5%AF%B6%E6%BC%81%E6%B8%AF_Ocean_Treasure_Seafood_Restaurant_diner_food_stir-fly_%E8%82%89%E7%89%87_pork_n_pineapple_%E9%9D%92%E6%A4%92_green_pepper_March_2026_N13P_02.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-053",
+      "food_code": "27320310",
+      "name": "Pork chow mein or chop suey with noodles",
+      "src": "media/9f192ba93d18bb778b7e8454.jpg",
+      "credit": "~MVI~ (warped)",
+      "license": "CC-BY-2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_url": "https://www.flickr.com/photos/20119750@N00/5278977519",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-054",
+      "food_code": "27510195",
+      "name": "Cheeseburger, on white bun, 1 small patty",
+      "src": "media/e84e253e05e83e7e6d9cad05.jpg",
+      "credit": "Acabashi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%27Gourmet_cheeseburger%27_-_Bradleys_Original_Tea_Hut_at_High_Beach%2C_Essex%2C_England_1.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-055",
+      "food_code": "27550110",
+      "name": "Crab cake sandwich",
+      "src": "media/266783fc09b357c21d290055.jpg",
+      "credit": "Elvert Barnes",
+      "license": "CC-BY-SA-2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_url": "https://www.flickr.com/photos/95413346@N00/12684658844",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-056",
+      "food_code": "42302010",
+      "name": "Peanut butter and jelly sandwich, NFS",
+      "src": "media/314271e62e5126fc90d5d0e8.jpg",
+      "credit": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2020-05-04_23_48_53_A_peanut_butter_and_jelly_sandwich_composed_of_two_slices_of_Sara_Lee_white_whole_grain_bread%2C_Welch%27s_concord_grape_jelly_and_Jif_peanut_butter_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-057",
+      "food_code": "51000110",
+      "name": "Bread, NS as to major flour, toasted",
+      "src": "media/7efe3133145f687cf47c6dcb.jpg",
+      "credit": "Acabashi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Buttered_toast.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-058",
+      "food_code": "53711000",
+      "name": "Cereal or granola bar (Quaker Chewy Granola Bar)",
+      "src": "media/780469e484cf998132da3275.jpg",
+      "credit": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/2021-03-08_16_43_35_A_Quaker_Chewy_Chocolate_Brownie-licious_Granola_Bar_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-059",
+      "food_code": "54301030",
+      "name": "Crackers, butter (Ritz)",
+      "src": "media/f216416bd4230897e2679b08.jpg",
+      "credit": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/2021-10-31_18_08_42_A_sample_of_Ritz_Bits_Peanut_Butter_Cracker_Sandwiches_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": true
+    },
+    {
+      "id": "photo-001",
+      "food_code": "63113030",
+      "name": "Cherry pie filling",
+      "src": "media/425a754c19dce2c573dcff1f.jpg",
+      "credit": "rsuehle",
+      "license": "CC-BY-SA-2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_url": "https://www.flickr.com/photos/14190855@N05/4658453578",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-002",
+      "food_code": "91403000",
+      "name": "Fruit butter, all flavors",
+      "src": "media/8986d5faf6d77cd083bd9506.jpg",
+      "credit": "Creator not recorded",
+      "license": "recipe1m (recipe-site/ARR)",
+      "license_url": null,
+      "source_url": "http://img.sndimg.com/food/image/upload/w_512,h_512,c_fit,fl_progressive,q_95/v1/img/recipes/50/51/80/bJ8WfgqTQagOdAvu1ief_images%20(1).jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-003",
+      "food_code": "41205055",
+      "name": "Layer dip",
+      "src": "media/b5be184165bcc8c9a1705028.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.vecteezy.com/photo/55362292-delicious-guacamole-dip-with-tortilla-chips-on-white-background",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-004",
+      "food_code": "42204100",
+      "name": "Gravy, vegetarian",
+      "src": "media/ca5323a58d3d827f4b1d02a3.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.vecteezy.com/png/57007566-rich-brown-gravy-drizzle-on-transparent-background",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-005",
+      "food_code": "63148750",
+      "name": "Tamarind",
+      "src": "media/7e16bb2a17e70f4aeb2efd35.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/exquisite-closeup-fresh-tamarind-vibrant-tropical-fruit-perfect-food-photography-posters-prints-captivating-image381886249",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-006",
+      "food_code": "63143110",
+      "name": "Plum, canned",
+      "src": "media/a3e974dc0856786c45053398.jpg",
+      "credit": "Open Food Facts contributors",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://world.openfoodfacts.org/product/5031021164018",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-008",
+      "food_code": "91731100",
+      "name": "Peanuts, sugar-coated",
+      "src": "media/8a4c9fdc255223dae9fd868d.jpg",
+      "credit": "Creator not recorded",
+      "license": "recipe1m (recipe-site/ARR)",
+      "license_url": null,
+      "source_url": "http://img.sndimg.com/food/image/upload/w_512,h_512,c_fit,fl_progressive,q_95/v1/img/recipes/13/46/00/picEl7jQ2.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-009",
+      "food_code": "21407000",
+      "name": "Beef, pot roast, braised or boiled, NS as to fat eaten",
+      "src": "media/22e200f016142669ece0f5c4.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://recipesbylayla.com/southern-braised-pot-roast/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-010",
+      "food_code": "21407110",
+      "name": "Beef, pot roast, braised or boiled, lean and fat eaten",
+      "src": "media/decf3b4f13c3a0339398b4c5.jpg",
+      "credit": "Creator not recorded",
+      "license": "recipe1m (recipe-site/ARR)",
+      "license_url": null,
+      "source_url": "http://img.sndimg.com/food/image/upload/w_512,h_512,c_fit,fl_progressive,q_95/v1/img/recipes/15/90/06/pic9ymoWl.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-011",
+      "food_code": "74601010",
+      "name": "Tomato soup, cream of, prepared with milk",
+      "src": "media/30be2f9207817273f42450a4.jpg",
+      "credit": "Creator not recorded",
+      "license": "recipe1m (recipe-site/ARR)",
+      "license_url": null,
+      "source_url": "http://img.sndimg.com/food/image/upload/w_512,h_512,c_fit,fl_progressive,q_95/v1/img/recipes/22/27/04/picmoH5V1.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-012",
+      "food_code": "72302100",
+      "name": "Broccoli cheese soup, prepared with milk, home recipe, canned, or ready-to-serve",
+      "src": "media/89f07b732d7e66d152ed7189.jpg",
+      "credit": "Creator not recorded",
+      "license": "recipe1m (recipe-site/ARR)",
+      "license_url": null,
+      "source_url": "http://img.sndimg.com/food/image/upload/w_512,h_512,c_fit,fl_progressive,q_95/v1/img/recipes/93/78/3/picyz4Hz1.jpg",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-013",
+      "food_code": "27136080",
+      "name": "Venison or deer with gravy",
+      "src": "media/d94ef06fc360286b7c71ca80.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.therusticelk.com/venison-salisbury-steak/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-014",
+      "food_code": "26107144",
+      "name": "Catfish, coated, fried, made with cooking spray",
+      "src": "media/c83107914396b12a48e72cca.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.numberanalytics.com/blog/spicy-fried-catfish-coating-ideas",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-015",
+      "food_code": "27261500",
+      "name": "Stewed, seasoned, ground beef and pork with potatoes, Mexican style",
+      "src": "media/a37f958aa4edf23d8021d5eb.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://morimadz.com/how-to-make-mexican-ground-beef-and-potatoes/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-016",
+      "food_code": "24137301",
+      "name": "Chicken leg, drumstick and thigh, fried, coated, skin / coating not eaten",
+      "src": "media/81697e69526f767ad5798218.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.vecteezy.com/photo/11548307-fried-chicken-leg-drumstick-isolated-on-white-background",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-017",
+      "food_code": "54401081",
+      "name": "Cheese flavored corn snacks (Cheetos)",
+      "src": "media/e63836ae4634b1d00f9a833f.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.shutterstock.com/search/cheetos",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-018",
+      "food_code": "54401011",
+      "name": "Corn nuts",
+      "src": "media/c0556c857b481d1d62da9c06.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.freepik.com/premium-photo/roasted-salted-corn-nuts-wooden-bowl-isolated-white-background-beer-snack-dry-corn-with-spices_19190824.htm",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-019",
+      "food_code": "24168030",
+      "name": "Chicken \"wings\", boneless, with hot sauce, from fast food / restaurant",
+      "src": "media/58623fef0bd79adbbf521a4c.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://stock.adobe.com/images/stack-of-chicken-wings-with-hot-sauce-on-white-background-suitable-for-food-related-designs-menus-recipe-cards-and-advertisements/649245588",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-020",
+      "food_code": "26118030",
+      "name": "Halibut, coated, baked or broiled, made with oil",
+      "src": "media/ca523a5768855dbca8a4504f.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://buttereats.com/creamy-baked-halibut/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-021",
+      "food_code": "53260030",
+      "name": "Cookie, chocolate chip, sugar free",
+      "src": "media/9a45d5a7ce315b7ffcbf20b6.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.vecteezy.com/photo/57996459-chocolate-chip-cookie-in-an-isolated-white-background",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-022",
+      "food_code": "53209005",
+      "name": "Cookie, chocolate, with icing or coating",
+      "src": "media/76a2a263b1e8a68bdcea80d1.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.alamy.com/delicious-chocolate-cookies-with-white-icing-arranged-on-a-clean-background-for-a-tempting-dessert-display-image636951489.html",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-023",
+      "food_code": "27212150",
+      "name": "Beef goulash with noodles",
+      "src": "media/c2147e3cd76efbc96778c747.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/fine-meat-german-beef-goulash-noodles-isolated-white-background-image205220600",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-024",
+      "food_code": "26137180",
+      "name": "Salmon, canned",
+      "src": "media/6c0f25859b5652f65a136ff7.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/canned-salmon-fish-preserves-tin-can-white-background-top-view-flat-lay-square-format-set-image229502248",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-025",
+      "food_code": "27420060",
+      "name": "Pork and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, no sauce",
+      "src": "media/4ea4c81b194692c5640c19e4.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.freepik.com/premium-ai-image/stir-fried-pork-vegetables-plate-with-chopsticks-generated-by-ai_93462045.htm",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-026",
+      "food_code": "26137190",
+      "name": "Salmon, smoked",
+      "src": "media/237527673eb8702068cb4dbb.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.freepik.com/premium-ai-image/smoked-salmon-canaps-with-cream-cheese-recipe-studio-light-isolated-white-background_190484258.htm",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-027",
+      "food_code": "13161600",
+      "name": "Fudgesicle, light",
+      "src": "media/7aa3eefe12848eb78791a9e1.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://thehealthyfamilyandhome.com/chocolate-fudgesicles/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-028",
+      "food_code": "13130310",
+      "name": "Light ice cream, chocolate",
+      "src": "media/8441c83548e33384733f2e0d.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://ar.inspiredpencil.com/pictures-2023/chocolate-ice-cream-sundae-with-sprinkles",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-029",
+      "food_code": "53231400",
+      "name": "Cookie, multigrain, high fiber",
+      "src": "media/9fdd433a94bf0de571b47c02.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/multigrain-cookies-home-made-image295318002",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-030",
+      "food_code": "56205016",
+      "name": "Rice, brown, cooked, made with margarine",
+      "src": "media/7f421cc81c306528a6b9db54.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.alamy.com/brown-rice-on-a-white-background-image475161147.html",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-031",
+      "food_code": "26121180",
+      "name": "Mackerel, canned",
+      "src": "media/ffb8e31cb74011950d963eec.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/canned-mackerel-fillets-isolated-white-background-sealed-can-fish-image371707708",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-032",
+      "food_code": "74602200",
+      "name": "Tomato soup, canned, reduced sodium, prepared with water, or ready-to-serve",
+      "src": "media/c66af6f69827880934828d71.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.walmart.com/ip/2-pack-Progresso-Creamy-Tomato-with-Basil-Soup-Reduced-Sodium-Canned-Soup-Gluten-Free-19-oz/13389415703",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-033",
+      "food_code": "56205410",
+      "name": "Rice, white, cooked with fat, Puerto Rican style",
+      "src": "media/487b1975b1f9a7714aa998ab.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://ar.inspiredpencil.com/pictures-2023/puerto-rican-white-rice",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-034",
+      "food_code": "53236000",
+      "name": "Cookie, Pizzelle",
+      "src": "media/d159d022bd9e54db84ce8e64.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.dreamstime.com/stack-beautifully-textured-pizzelle-cookies-decorative-pattern-light-dusting-powdered-sugar-perfect-stacked-image426450500",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-035",
+      "food_code": "26151190",
+      "name": "Trout, smoked",
+      "src": "media/de910bb76a7603d5a3117c22.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.foodservicerep.com.au/whats-new-in-foodservice/new-artisan-smoked-trout-to-bring-a-unique-touch-to-your-menu",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    },
+    {
+      "id": "photo-036",
+      "food_code": "28340630",
+      "name": "Chicken or turkey vegetable soup with rice, stew type, chunky style",
+      "src": "media/d69451f88f446daf3201808c.jpg",
+      "credit": "Creator not recorded",
+      "license": "unknown-all-rights-reserved",
+      "license_url": null,
+      "source_url": "https://www.cookingwithhailey.com/turkey-and-rice-vegetable-soup-recipe/",
+      "association": "Dataset-assigned food record; not a measurement of the pictured meal.",
+      "catalog_visible": false
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "vqa-1",
+      "task": "vqa",
+      "pair": 1,
+      "member": "A",
+      "title": "Read a nutrient value · A",
+      "query": "Using the records provided, report the calcium per 100 g of the pictured food (A) in mg.",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "63113030",
+          "photo": "photo-001"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_5c93d05896c9",
+          "food_code": 63113030,
+          "name": "Cherry pie filling",
+          "category": "Jams, syrups, toppings",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 119.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.6,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 28.59,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 24.96,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 0.9,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.163,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 52.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 9.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 8.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 76.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 1.08,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 1.6,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 130.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 154.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 37.17,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.2119,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 67.6,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_fe94f85fabfc",
+          "food_code": 91403000,
+          "name": "Fruit butter, all flavors",
+          "category": "Jams, syrups, toppings",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 173.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.39,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 42.47,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 35.3,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 1.5,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.053,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 15.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 14.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 8.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 91.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.31,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 0.6,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 20.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 34.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 8.494,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0106,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 3.0,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": 9.0,
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": 9.0,
+          "status": "answered",
+          "links": {
+            "A": 63113030
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": 9.0,
+          "status": "answered",
+          "links": {
+            "A": 63113030
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": 9.0,
+          "status": "answered",
+          "links": {
+            "A": 63113030
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "mg",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "vqa-2",
+      "task": "vqa",
+      "pair": 1,
+      "member": "B",
+      "title": "Read a nutrient value · B",
+      "query": "Using the records provided, report the calcium per 100 g of the pictured food (A) in mg.",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "91403000",
+          "photo": "photo-002"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_f36f21c43bda",
+          "food_code": 63113030,
+          "name": "Cherry pie filling",
+          "category": "Jams, syrups, toppings",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 119.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.6,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 28.59,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 24.96,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 0.9,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.163,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 52.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 9.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 8.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 76.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 1.08,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 1.6,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 130.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 154.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 37.17,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.2119,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 67.6,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_b1dff92d1b5f",
+          "food_code": 91403000,
+          "name": "Fruit butter, all flavors",
+          "category": "Jams, syrups, toppings",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 173.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.39,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 42.47,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 35.3,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 1.5,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.053,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 15.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 14.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 8.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 91.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.31,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 0.6,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 20.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 34.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 8.494,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0106,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 3.0,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": 14.0,
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": 14.0,
+          "status": "answered",
+          "links": {
+            "A": 91403000
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": 14.0,
+          "status": "answered",
+          "links": {
+            "A": 91403000
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": 14.0,
+          "status": "answered",
+          "links": {
+            "A": 91403000
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "mg",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "vqa-3",
+      "task": "vqa",
+      "pair": 2,
+      "member": "A",
+      "title": "Compare nutrient levels · A",
+      "query": "According to the supplied records, which pictured food contains more carbohydrate per 100 g: card A or card B? Answer A, B, or tie if they are within 5% of each other.",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "41205055",
+          "photo": "photo-003"
+        },
+        {
+          "slot": "B",
+          "food_code": "42204100",
+          "photo": "photo-004"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_980ae3ba9bcb",
+          "food_code": 42204100,
+          "name": "Gravy, vegetarian",
+          "category": "Dips, gravies, other sauces",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 140.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 3.81,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 9.19,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.61,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 0.2,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.971,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 22.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 331.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 121.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 105.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 156.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.28,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 6.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 0.1,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 1.2,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.43,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 60.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 84.0,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 5.514,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.983,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 198.6,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_4bb22356cd9c",
+          "food_code": 41205055,
+          "name": "Layer dip",
+          "category": "Dips, gravies, other sauces",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 146.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 5.31,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 6.53,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.71,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 2.1,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 5.019,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 24.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 535.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 142.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 110.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 223.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 1.06,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 5.0,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.1,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.19,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 60.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 87.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 3.918,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.011,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 321.0,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": "B",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "B",
+          "status": "answered",
+          "links": {
+            "A": 41205055,
+            "B": 42204100
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": "B",
+          "status": "answered",
+          "links": {
+            "A": 41205055,
+            "B": 42204100
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "B",
+          "status": "answered",
+          "links": {
+            "A": 41205055,
+            "B": 42204100
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "vqa-4",
+      "task": "vqa",
+      "pair": 2,
+      "member": "B",
+      "title": "Compare nutrient levels · B",
+      "query": "According to the supplied records, which pictured food contains more carbohydrate per 100 g: card A or card B? Answer A, B, or tie if they are within 5% of each other.",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "42204100",
+          "photo": "photo-004"
+        },
+        {
+          "slot": "B",
+          "food_code": "41205055",
+          "photo": "photo-003"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_fa0976256273",
+          "food_code": 42204100,
+          "name": "Gravy, vegetarian",
+          "category": "Dips, gravies, other sauces",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 140.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 3.81,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 9.19,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.61,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 0.2,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.971,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 22.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 331.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 121.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 105.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 156.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.28,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 6.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 0.1,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 1.2,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.43,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 60.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 84.0,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 5.514,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.983,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 198.6,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_b6aeab18ac37",
+          "food_code": 41205055,
+          "name": "Layer dip",
+          "category": "Dips, gravies, other sauces",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 146.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 5.31,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 6.53,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.71,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 2.1,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 5.019,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 24.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 535.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 142.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 110.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 223.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 1.06,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 5.0,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.1,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.19,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 60.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 87.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 3.918,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.011,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 321.0,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": "A",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "A",
+          "status": "answered",
+          "links": {
+            "A": 42204100,
+            "B": 41205055
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": "A",
+          "status": "answered",
+          "links": {
+            "A": 42204100,
+            "B": 41205055
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "A",
+          "status": "answered",
+          "links": {
+            "A": 42204100,
+            "B": 41205055
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "vqa-5",
+      "task": "vqa",
+      "pair": 3,
+      "member": "A",
+      "title": "Check a nutrient limit · A",
+      "query": "Using only the records provided, does the food pictured on card A count as high in carbohydrate, meaning 55 g per 100 g or more?",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "63148750",
+          "photo": "photo-005"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_7240e5c57344",
+          "food_code": 63143110,
+          "name": "Plum, canned",
+          "category": "Other fruits and fruit salads",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 54.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.52,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 13.54,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 12.43,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.013,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 1.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 5.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 12.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 106.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.13,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 5.7,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 125.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 67.5,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 16.93,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.01625,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1.25,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_70f78cbf297d",
+          "food_code": 63148750,
+          "name": "Tamarind",
+          "category": "Other fruits and fruit salads",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 239.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 2.8,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 62.5,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 38.8,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 5.1,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.272,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 28.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 74.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 113.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 628.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 2.8,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 3.5,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 2.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 4.78,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 1.25,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00544,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 0.56,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": "yes",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "yes",
+          "status": "answered",
+          "links": {
+            "A": 63148750
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": "no",
+          "status": "answered",
+          "links": {
+            "A": 63143110
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "yes",
+          "status": "answered",
+          "links": {
+            "A": 63148750
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "vqa-6",
+      "task": "vqa",
+      "pair": 3,
+      "member": "B",
+      "title": "Check a nutrient limit · B",
+      "query": "Using only the records provided, does the food pictured on card A count as high in carbohydrate, meaning 55 g per 100 g or more?",
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "63143110",
+          "photo": "photo-006"
+        }
+      ],
+      "records": [
+        {
+          "record_id": "rec_4c829fae2658",
+          "food_code": 63143110,
+          "name": "Plum, canned",
+          "category": "Other fruits and fruit salads",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 54.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 0.52,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 13.54,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 12.43,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 1.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.013,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 1.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 5.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 12.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 106.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 0.13,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 5.7,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 125.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 67.5,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 16.93,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.01625,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1.25,
+              "unit": "mg"
+            }
+          }
+        },
+        {
+          "record_id": "rec_b0d210817a26",
+          "food_code": 63148750,
+          "name": "Tamarind",
+          "category": "Other fruits and fruit salads",
+          "nutrients_per_100g": {
+            "energy": {
+              "value": 239.0,
+              "unit": "kcal"
+            },
+            "protein": {
+              "value": 2.8,
+              "unit": "g"
+            },
+            "carbohydrate": {
+              "value": 62.5,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 38.8,
+              "unit": "g"
+            },
+            "dietary fiber": {
+              "value": 5.1,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.272,
+              "unit": "g"
+            },
+            "cholesterol": {
+              "value": 0.0,
+              "unit": "mg"
+            },
+            "sodium": {
+              "value": 28.0,
+              "unit": "mg"
+            },
+            "calcium": {
+              "value": 74.0,
+              "unit": "mg"
+            },
+            "phosphorus": {
+              "value": 113.0,
+              "unit": "mg"
+            },
+            "potassium": {
+              "value": 628.0,
+              "unit": "mg"
+            },
+            "iron": {
+              "value": 2.8,
+              "unit": "mg"
+            },
+            "folic acid": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin C": {
+              "value": 3.5,
+              "unit": "mg"
+            },
+            "vitamin D": {
+              "value": 0.0,
+              "unit": "mcg"
+            },
+            "vitamin B12": {
+              "value": 0.0,
+              "unit": "mcg"
+            }
+          },
+          "serving": {
+            "description": "Quantity not specified (FNDDS 2017-2018 portion)",
+            "grams": 2.0
+          },
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 4.78,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 1.25,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00544,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 0.56,
+              "unit": "mg"
+            }
+          }
+        }
+      ],
+      "gold": "no",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "no",
+          "status": "answered",
+          "links": {
+            "A": 63143110
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "DINOv2 + rules",
+          "answer": "yes",
+          "status": "answered",
+          "links": {
+            "A": 63148750
+          },
+          "condition": "Image input; listed card order"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "no",
+          "status": "answered",
+          "links": {
+            "A": 63143110
+          },
+          "condition": "Image input; listed card order"
+        }
+      ],
+      "unit": "",
+      "explanation": "The paired question changes the assigned food identity. Compare the matched record and answer; nutrient values describe that record."
+    },
+    {
+      "id": "substitution-1",
+      "task": "substitution",
+      "pair": 1,
+      "member": "A",
+      "title": "Reduce saturated fat · A",
+      "query": "I have high cholesterol and want to cut saturated fat. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "nutrient_name": "sodium",
+          "less_than": 460.0,
+          "unit": "mg",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "nutrient_name": "saturated fat",
+          "less_than": 4.0,
+          "unit": "g",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "91734200",
+          "photo": "photo-007"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 91731100,
+          "name": "Peanuts, sugar-coated",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 73.08,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 6.636,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 5.911,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.6549,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 21.84,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, peanut bar"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 91734200,
+          "name": "Reese's Pieces",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 69.58,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 8.38,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 7.455,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.299,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 27.16,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, REESE'S PIECES Candy"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 91708070,
+          "name": "Tamarind candy",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 46.34,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.87,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 230.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, Tamarind"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 91742010,
+          "name": "Sesame Crunch, Sahadi",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 72.24,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 7.042,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.364,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.6527,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 23.38,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, sesame crunch"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 91745100,
+          "name": "Skittles",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 56.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.71,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.62,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5761,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 2.1,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, MARS SNACKFOOD US, SKITTLES Original Bite Size Candies"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 91708000,
+          "name": "Fruit peel, candied",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 45.08,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.58,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.3,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0014,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 13.72,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candied fruit"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 91726000,
+          "name": "Nougat, plain",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 55.72,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.93,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 6.296,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.2334,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 4.62,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, nougat, with almonds"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 91736000,
+          "name": "Pineapple candy, Puerto Rican style",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 45.92,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.88,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.72,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00126,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 0.28,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Pineapple, canned, water pack, solids and liquids",
+            "Sugars, granulated",
+            "Lemon peel, raw"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 91723020,
+          "name": "Marshmallow, candy-coated",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 47.88,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.3,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.18,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00504,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 7.28,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Sugars, granulated",
+            "Candies, marshmallows"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 91713090,
+          "name": "Fudge, divinity",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 55.72,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.61,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.47,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.06356,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 8.96,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Sugars, granulated",
+            "Syrups, corn, light",
+            "Egg, white, raw, fresh",
+            "Salt, table, iodized",
+            "Nuts, walnuts, black, dried"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "c2",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "c2",
+          "status": "answered",
+          "links": {
+            "S": 91734200
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "none",
+          "status": "answered",
+          "links": {
+            "S": 91734200
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "c2",
+          "status": "answered",
+          "links": {
+            "S": 91734200
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c1",
+          "status": "answered",
+          "links": {
+            "S": 91734200
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "substitution-2",
+      "task": "substitution",
+      "pair": 1,
+      "member": "B",
+      "title": "Reduce saturated fat · B",
+      "query": "I have high cholesterol and want to cut saturated fat. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "nutrient_name": "sodium",
+          "less_than": 460.0,
+          "unit": "mg",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "nutrient_name": "saturated fat",
+          "less_than": 4.0,
+          "unit": "g",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "91731100",
+          "photo": "photo-008"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 91731100,
+          "name": "Peanuts, sugar-coated",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 73.08,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 6.636,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 5.911,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.6549,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 21.84,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, peanut bar"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 91734200,
+          "name": "Reese's Pieces",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 69.58,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 8.38,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 7.455,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.299,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 27.16,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, REESE'S PIECES Candy"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 91708070,
+          "name": "Tamarind candy",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 46.34,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.87,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 230.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, Tamarind"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 91742010,
+          "name": "Sesame Crunch, Sahadi",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 72.24,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 7.042,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.364,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.6527,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 23.38,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, sesame crunch"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 91745100,
+          "name": "Skittles",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 56.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.71,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.62,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5761,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 2.1,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, MARS SNACKFOOD US, SKITTLES Original Bite Size Candies"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 91708000,
+          "name": "Fruit peel, candied",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 45.08,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.58,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.3,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.0014,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 13.72,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candied fruit"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 91726000,
+          "name": "Nougat, plain",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 55.72,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.93,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 6.296,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.2334,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 4.62,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Candies, nougat, with almonds"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 91736000,
+          "name": "Pineapple candy, Puerto Rican style",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 45.92,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.88,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.72,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00126,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 0.28,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Pineapple, canned, water pack, solids and liquids",
+            "Sugars, granulated",
+            "Lemon peel, raw"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 91723020,
+          "name": "Marshmallow, candy-coated",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 47.88,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.3,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.18,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.00504,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 7.28,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Sugars, granulated",
+            "Candies, marshmallows"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 91713090,
+          "name": "Fudge, divinity",
+          "family": "Candy not containing chocolate",
+          "serving_grams": 14.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 55.72,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 11.61,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 11.47,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.06356,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 8.96,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Sugars, granulated",
+            "Syrups, corn, light",
+            "Egg, white, raw, fresh",
+            "Salt, table, iodized",
+            "Nuts, walnuts, black, dried"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "none",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "none",
+          "status": "answered",
+          "links": {
+            "S": 91731100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "none",
+          "status": "answered",
+          "links": {
+            "S": 91731100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "none",
+          "status": "answered",
+          "links": {
+            "S": 91731100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c1",
+          "status": "answered",
+          "links": {
+            "S": 91731100
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "substitution-3",
+      "task": "substitution",
+      "pair": 2,
+      "member": "A",
+      "title": "Reduce sodium · A",
+      "query": "I have high blood pressure and want to cut sodium. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "nutrient_name": "sodium",
+          "less_than": 460.0,
+          "unit": "mg",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "nutrient_name": "energy",
+          "less_than": 400.0,
+          "unit": "kcal",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "21407000",
+          "photo": "photo-009"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 21407000,
+          "name": "Beef, pot roast, braised or boiled, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 168.2,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.428,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 263.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, chuck, blade roast, separable lean only, trimmed to 0\" fat, all grades, cooked, braised",
+            "Salt, table, iodized"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 21407110,
+          "name": "Beef, pot roast, braised or boiled, lean and fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 103.8,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.125,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 266.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, round, top round roast, boneless, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+            "Salt, table, iodized"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 21420100,
+          "name": "Beef, sandwich steak, flaked, formed, thinly sliced",
+          "family": "Beef, excludes ground",
+          "serving_grams": 53.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 174.4,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 6.196,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 27.56,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, rib, large end (ribs 6-9), separable lean and fat, trimmed to 1/8\" fat, all grades, cooked, roasted",
+            "Fat, beef tallow",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 21103110,
+          "name": "Beef steak, breaded or floured, baked or fried, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 332.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 16.29,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.715,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.193,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 597.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, loin, top loin steak, boneless, lip off, separable lean only, trimmed to 0\" fat, all grades, raw",
+            "Bread, crumbs, dry, grated, plain",
+            "Vegetable oil, NFS",
+            "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
+            "Salt, table, iodized"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 20000000,
+          "name": "Meat, NFS",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 134.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.157,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 258.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0\" fat, all grades, cooked",
+            "Salt, table, iodized"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 21401400,
+          "name": "Beef, roast, canned",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 146.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.841,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 42.21,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, round, tip round, roast, separable lean and fat, trimmed to 1/8\" fat, all grades, cooked, roasted"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 21000120,
+          "name": "Beef, NS as to cut, cooked, lean only eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 123.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.771,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 259.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, short loin, top loin, steak, separable lean only, trimmed to 1/8\" fat, all grades, cooked, broiled",
+            "Beef, rib eye steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, all grades, cooked, grilled",
+            "Beef, round, top round steak, boneless, separable lean only, trimmed to 0\" fat, all grades, cooked, grilled",
+            "Beef, top sirloin, steak, separable lean only, trimmed to 0\" fat, all grades, cooked, broiled",
+            "Salt, table, iodized"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 21101020,
+          "name": "Beef steak, NS as to cooking method, lean only eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 246.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.542,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 518.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, short loin, top loin, steak, separable lean only, trimmed to 1/8\" fat, all grades, cooked, broiled",
+            "Beef, rib eye steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, all grades, cooked, grilled",
+            "Beef, round, top round steak, boneless, separable lean only, trimmed to 0\" fat, all grades, cooked, grilled",
+            "Beef, top sirloin, steak, separable lean only, trimmed to 0\" fat, all grades, cooked, broiled",
+            "Salt, table, iodized"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 23203010,
+          "name": "Veal chop, fried, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 318.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 13.28,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.7638,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.1,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 608.4,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Veal, leg (top round), separable lean and fat, cooked, pan-fried, breaded"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 21301000,
+          "name": "Beef, oxtails, cooked",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 168.2,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.428,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 263.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, chuck, blade roast, separable lean only, trimmed to 0\" fat, all grades, cooked, braised",
+            "Salt, table, iodized"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "c4",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c3",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "substitution-4",
+      "task": "substitution",
+      "pair": 2,
+      "member": "B",
+      "title": "Reduce sodium · B",
+      "query": "I have high blood pressure and want to cut sodium. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "nutrient_name": "sodium",
+          "less_than": 460.0,
+          "unit": "mg",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "nutrient_name": "energy",
+          "less_than": 400.0,
+          "unit": "kcal",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "21407110",
+          "photo": "photo-010"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 21407000,
+          "name": "Beef, pot roast, braised or boiled, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 168.2,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.428,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 263.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, chuck, blade roast, separable lean only, trimmed to 0\" fat, all grades, cooked, braised",
+            "Salt, table, iodized"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 21407110,
+          "name": "Beef, pot roast, braised or boiled, lean and fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 103.8,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.125,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 266.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, round, top round roast, boneless, separable lean and fat, trimmed to 0\" fat, all grades, raw",
+            "Salt, table, iodized"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 21420100,
+          "name": "Beef, sandwich steak, flaked, formed, thinly sliced",
+          "family": "Beef, excludes ground",
+          "serving_grams": 53.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 174.4,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 6.196,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 27.56,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, rib, large end (ribs 6-9), separable lean and fat, trimmed to 1/8\" fat, all grades, cooked, roasted",
+            "Fat, beef tallow",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 21103110,
+          "name": "Beef steak, breaded or floured, baked or fried, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 332.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 16.29,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.715,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.193,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 597.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, loin, top loin steak, boneless, lip off, separable lean only, trimmed to 0\" fat, all grades, raw",
+            "Bread, crumbs, dry, grated, plain",
+            "Vegetable oil, NFS",
+            "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
+            "Salt, table, iodized"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 20000000,
+          "name": "Meat, NFS",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 134.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.157,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 258.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0\" fat, all grades, cooked",
+            "Salt, table, iodized"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 21401400,
+          "name": "Beef, roast, canned",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 146.7,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.841,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 42.21,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, round, tip round, roast, separable lean and fat, trimmed to 1/8\" fat, all grades, cooked, roasted"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 21000120,
+          "name": "Beef, NS as to cut, cooked, lean only eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 123.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.771,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 259.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, short loin, top loin, steak, separable lean only, trimmed to 1/8\" fat, all grades, cooked, broiled",
+            "Beef, rib eye steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, all grades, cooked, grilled",
+            "Beef, round, top round steak, boneless, separable lean only, trimmed to 0\" fat, all grades, cooked, grilled",
+            "Beef, top sirloin, steak, separable lean only, trimmed to 0\" fat, all grades, cooked, broiled",
+            "Salt, table, iodized"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 21101020,
+          "name": "Beef steak, NS as to cooking method, lean only eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 246.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.542,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 518.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, short loin, top loin, steak, separable lean only, trimmed to 1/8\" fat, all grades, cooked, broiled",
+            "Beef, rib eye steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, all grades, cooked, grilled",
+            "Beef, round, top round steak, boneless, separable lean only, trimmed to 0\" fat, all grades, cooked, grilled",
+            "Beef, top sirloin, steak, separable lean only, trimmed to 0\" fat, all grades, cooked, broiled",
+            "Salt, table, iodized"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 23203010,
+          "name": "Veal chop, fried, NS as to fat eaten",
+          "family": "Beef, excludes ground",
+          "serving_grams": 134.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 318.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 13.28,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.7638,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.1,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 608.4,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Veal, leg (top round), separable lean and fat, cooked, pan-fried, breaded"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 21301000,
+          "name": "Beef, oxtails, cooked",
+          "family": "Beef, excludes ground",
+          "serving_grams": 67.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 168.2,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.0,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 3.428,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 263.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, chuck, blade roast, separable lean only, trimmed to 0\" fat, all grades, cooked, braised",
+            "Salt, table, iodized"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "none",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c3",
+          "status": "answered",
+          "links": {
+            "S": 21407000
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "substitution-5",
+      "task": "substitution",
+      "pair": 3,
+      "member": "A",
+      "title": "Reduce carbohydrates · A",
+      "query": "I have diabetes and want to cut carbohydrate. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "diabetes",
+          "nutrient": "carb",
+          "nutrient_name": "carbohydrate",
+          "less_than": 55.0,
+          "unit": "g",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "nutrient_name": "energy",
+          "less_than": 400.0,
+          "unit": "kcal",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "74601010",
+          "photo": "photo-011"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 72302100,
+          "name": "Broccoli cheese soup, prepared with milk, home recipe, canned, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 299.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 206.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 18.78,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.49,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.132,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1046.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Milk, NFS",
+            "Soup, broccoli cheese, canned, condensed, commercial"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 74601010,
+          "name": "Tomato soup, cream of, prepared with milk",
+          "family": "Soups",
+          "serving_grams": 310.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 179.8,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 31.16,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 20.34,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.984,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 644.8,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, tomato, canned, condensed",
+            "Milk, NFS"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 41601160,
+          "name": "Bean and ham soup, canned, reduced sodium, prepared with water or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 311.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 251.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 42.48,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 9.859,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.7837,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 581.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, bean & ham, canned, reduced sodium, prepared with water or ready-to-serve"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 28340800,
+          "name": "Chicken or turkey soup with vegetables and fruit, Asian Style",
+          "family": "Soups",
+          "serving_grams": 292.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 113.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 6.336,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 5.46,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.7592,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1661.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken broth, ready-to-serve",
+            "Tomatoes, cooked, as ingredient",
+            "Pineapple, canned, water pack, solids and liquids",
+            "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",
+            "Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture)",
+            "Sugars, granulated",
+            "Sauce, fish, ready-to-serve",
+            "Okra, frozen, cooked, boiled, drained, without salt"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 28340610,
+          "name": "Chicken or turkey vegetable soup, stew type",
+          "family": "Soups",
+          "serving_grams": 300.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 213.0,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 20.64,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 2.61,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.37,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1062.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken, canned, chunky, ready-to-serve"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 75651140,
+          "name": "Vegetable soup with chicken broth, home recipe, Mexican style",
+          "family": "Soups",
+          "serving_grams": 290.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 176.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 19.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 7.134,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.575,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 614.8,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Vegetable oil, NFS",
+            "Onions, raw",
+            "Garlic, raw",
+            "Corn, sweet, yellow, raw",
+            "Salt, table, iodized",
+            "Squash, summer, zucchini, includes skin, raw",
+            "Soup, stock, chicken, home-prepared",
+            "Peppers, sweet, green, raw"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 58404010,
+          "name": "Chicken or turkey rice soup, canned, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 301.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 102.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 17.46,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.3612,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5599,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 978.2,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken with rice, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 75656010,
+          "name": "Vegetable soup, Spanish style, stew type",
+          "family": "Soups",
+          "serving_grams": 284.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 232.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 22.83,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.942,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.576,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1008.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, flank, steak, separable lean only, trimmed to 0\" fat, choice, raw",
+            "Onions, raw",
+            "Tomatoes, red, ripe, raw, year round average",
+            "Peppers, sweet, green, raw",
+            "Garlic, raw",
+            "Pork, cured, ham, center slice, country-style, separable lean only, raw",
+            "Cabbage, raw",
+            "Carrots, raw"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 75651020,
+          "name": "Vegetable beef soup, canned, prepared with water, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 305.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 97.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.54,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.373,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.052,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1098.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, vegetable beef, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 58400200,
+          "name": "Rice soup, NFS",
+          "family": "Soups",
+          "serving_grams": 301.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 102.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 17.46,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.3612,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5599,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 981.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken with rice, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "c4",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 74601010
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 74601010
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "c4",
+          "status": "answered",
+          "links": {
+            "S": 74601010
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c7",
+          "status": "answered",
+          "links": {
+            "S": 74601010
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "substitution-6",
+      "task": "substitution",
+      "pair": 3,
+      "member": "B",
+      "title": "Reduce carbohydrates · B",
+      "query": "I have diabetes and want to cut carbohydrate. Select a candidate reducing the target by at least 20%, increasing no other constrained nutrient by more than 25%, and satisfying all personal limits. Otherwise choose none.",
+      "rules": [
+        {
+          "condition": "diabetes",
+          "nutrient": "carb",
+          "nutrient_name": "carbohydrate",
+          "less_than": 55.0,
+          "unit": "g",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "nutrient_name": "energy",
+          "less_than": 400.0,
+          "unit": "kcal",
+          "basis": "per serving (FNDDS 2017-18 'Quantity not specified')"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "S",
+          "food_code": "72302100",
+          "photo": "photo-012"
+        }
+      ],
+      "records": [
+        {
+          "food_code": 72302100,
+          "name": "Broccoli cheese soup, prepared with milk, home recipe, canned, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 299.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 206.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 18.78,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 10.49,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 4.132,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1046.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Milk, NFS",
+            "Soup, broccoli cheese, canned, condensed, commercial"
+          ],
+          "entry": "s1"
+        },
+        {
+          "food_code": 74601010,
+          "name": "Tomato soup, cream of, prepared with milk",
+          "family": "Soups",
+          "serving_grams": 310.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 179.8,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 31.16,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 20.34,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.984,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 644.8,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, tomato, canned, condensed",
+            "Milk, NFS"
+          ],
+          "entry": "s2"
+        },
+        {
+          "food_code": 41601160,
+          "name": "Bean and ham soup, canned, reduced sodium, prepared with water or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 311.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 251.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 42.48,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 9.859,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.7837,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 581.6,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, bean & ham, canned, reduced sodium, prepared with water or ready-to-serve"
+          ],
+          "entry": "c1"
+        },
+        {
+          "food_code": 28340800,
+          "name": "Chicken or turkey soup with vegetables and fruit, Asian Style",
+          "family": "Soups",
+          "serving_grams": 292.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 113.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 6.336,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 5.46,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.7592,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1661.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken broth, ready-to-serve",
+            "Tomatoes, cooked, as ingredient",
+            "Pineapple, canned, water pack, solids and liquids",
+            "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",
+            "Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture)",
+            "Sugars, granulated",
+            "Sauce, fish, ready-to-serve",
+            "Okra, frozen, cooked, boiled, drained, without salt"
+          ],
+          "entry": "c2"
+        },
+        {
+          "food_code": 28340610,
+          "name": "Chicken or turkey vegetable soup, stew type",
+          "family": "Soups",
+          "serving_grams": 300.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 213.0,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 20.64,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 2.61,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.37,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1062.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken, canned, chunky, ready-to-serve"
+          ],
+          "entry": "c3"
+        },
+        {
+          "food_code": 75651140,
+          "name": "Vegetable soup with chicken broth, home recipe, Mexican style",
+          "family": "Soups",
+          "serving_grams": 290.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 176.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 19.0,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 7.134,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.575,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 614.8,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Vegetable oil, NFS",
+            "Onions, raw",
+            "Garlic, raw",
+            "Corn, sweet, yellow, raw",
+            "Salt, table, iodized",
+            "Squash, summer, zucchini, includes skin, raw",
+            "Soup, stock, chicken, home-prepared",
+            "Peppers, sweet, green, raw"
+          ],
+          "entry": "c4"
+        },
+        {
+          "food_code": 58404010,
+          "name": "Chicken or turkey rice soup, canned, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 301.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 102.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 17.46,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.3612,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5599,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 978.2,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken with rice, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c5"
+        },
+        {
+          "food_code": 75656010,
+          "name": "Vegetable soup, Spanish style, stew type",
+          "family": "Soups",
+          "serving_grams": 284.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 232.9,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 22.83,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 4.942,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 2.576,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1008.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Beef, flank, steak, separable lean only, trimmed to 0\" fat, choice, raw",
+            "Onions, raw",
+            "Tomatoes, red, ripe, raw, year round average",
+            "Peppers, sweet, green, raw",
+            "Garlic, raw",
+            "Pork, cured, ham, center slice, country-style, separable lean only, raw",
+            "Cabbage, raw",
+            "Carrots, raw"
+          ],
+          "entry": "c6"
+        },
+        {
+          "food_code": 75651020,
+          "name": "Vegetable beef soup, canned, prepared with water, or ready-to-serve",
+          "family": "Soups",
+          "serving_grams": 305.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 97.6,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 12.54,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 1.373,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 1.052,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 1098.0,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, vegetable beef, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c7"
+        },
+        {
+          "food_code": 58400200,
+          "name": "Rice soup, NFS",
+          "family": "Soups",
+          "serving_grams": 301.0,
+          "nutrients_per_serving": {
+            "energy": {
+              "value": 102.3,
+              "unit": "kcal"
+            },
+            "carbohydrate": {
+              "value": 17.46,
+              "unit": "g"
+            },
+            "total sugars": {
+              "value": 0.3612,
+              "unit": "g"
+            },
+            "saturated fat": {
+              "value": 0.5599,
+              "unit": "g"
+            },
+            "sodium": {
+              "value": 981.3,
+              "unit": "mg"
+            }
+          },
+          "ingredients": [
+            "Soup, chicken with rice, canned, condensed",
+            "Beverages, water, tap, drinking"
+          ],
+          "entry": "c8"
+        }
+      ],
+      "gold": "c7",
+      "models": [
+        {
+          "name": "SigLIP2 + rules",
+          "answer": "c7",
+          "status": "answered",
+          "links": {
+            "S": 72302100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "Records (Qwen, R)",
+          "answer": "c7",
+          "status": "answered",
+          "links": {
+            "S": 72302100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "KAPING (Qwen, R)",
+          "answer": "c7",
+          "status": "answered",
+          "links": {
+            "S": 72302100
+          },
+          "condition": "Image input; supplied candidates"
+        },
+        {
+          "name": "CoT (Llama)",
+          "answer": "c2",
+          "status": "answered",
+          "links": {
+            "S": 72302100
+          },
+          "condition": "Image input; supplied candidates"
+        }
+      ],
+      "explanation": "Both source records are available to the model. The image determines which one to use. Every clause must hold for a replacement."
+    },
+    {
+      "id": "recommendation-1",
+      "task": "recommendation",
+      "pair": 1,
+      "member": "A",
+      "title": "Food set 1 · Person A",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "fail_if_at_least": 400,
+          "unit": "kcal",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "27136080",
+          "photo": "photo-013",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "B",
+          "food_code": "26107144",
+          "photo": "photo-014",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "C",
+          "food_code": "27261500",
+          "photo": "photo-015",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "D",
+          "food_code": "24137301",
+          "photo": "photo-016",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "54401081",
+          "photo": "photo-017",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "F",
+          "food_code": "54401011",
+          "photo": "photo-018",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "G",
+          "food_code": "24168030",
+          "photo": "photo-019",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "H",
+          "food_code": "26118030",
+          "photo": "photo-020",
+          "compliant": true,
+          "relevant": true
+        }
+      ],
+      "gold": [
+        "E",
+        "H"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "B",
+            "E",
+            "G",
+            "C",
+            "H",
+            "A",
+            "F",
+            "D"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 27112010,
+            "B": 26127140,
+            "C": 27211550,
+            "D": 24147320,
+            "E": 54401081,
+            "F": 54401011,
+            "G": 24162150,
+            "H": 26118034
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "B",
+            "E",
+            "C",
+            "G",
+            "H",
+            "A",
+            "F",
+            "D"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 27112010,
+            "B": 26127140,
+            "C": 27211550,
+            "D": 24147320,
+            "E": 54401081,
+            "F": 54401011,
+            "G": 24162150,
+            "H": 26118034
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "E",
+            "C",
+            "G",
+            "B",
+            "H",
+            "A",
+            "F",
+            "D"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 27112010,
+            "B": 26127140,
+            "C": 27211550,
+            "D": 24147320,
+            "E": 54401081,
+            "F": 54401011,
+            "G": 24162150,
+            "H": 26118034
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "B",
+            "G",
+            "E",
+            "H",
+            "C",
+            "A",
+            "F",
+            "D"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 27112010,
+            "B": 26127140,
+            "C": 27211550,
+            "D": 24147320,
+            "E": 54401081,
+            "F": 54401011,
+            "G": 24162150,
+            "H": 26118034
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "B",
+            "C",
+            "H",
+            "E",
+            "G",
+            "A",
+            "D",
+            "F"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 27112010,
+            "B": 26127140,
+            "C": 27211550,
+            "D": 24147320,
+            "E": 54401081,
+            "F": 54401011,
+            "G": 24162150,
+            "H": 26118034
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    },
+    {
+      "id": "recommendation-2",
+      "task": "recommendation",
+      "pair": 1,
+      "member": "B",
+      "title": "Food set 1 · Person B",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "fail_if_at_least": 400,
+          "unit": "kcal",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "24137301",
+          "photo": "photo-016",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "B",
+          "food_code": "24168030",
+          "photo": "photo-019",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "C",
+          "food_code": "27261500",
+          "photo": "photo-015",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "D",
+          "food_code": "54401081",
+          "photo": "photo-017",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "27136080",
+          "photo": "photo-013",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "F",
+          "food_code": "26118030",
+          "photo": "photo-020",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "G",
+          "food_code": "54401011",
+          "photo": "photo-018",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "H",
+          "food_code": "26107144",
+          "photo": "photo-014",
+          "compliant": false,
+          "relevant": false
+        }
+      ],
+      "gold": [
+        "A",
+        "C"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "H",
+            "F",
+            "C",
+            "D",
+            "B",
+            "E",
+            "A",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 24147320,
+            "B": 24162150,
+            "C": 27211550,
+            "D": 54401081,
+            "E": 27112010,
+            "F": 26118034,
+            "G": 54401011,
+            "H": 26127140
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "F",
+            "C",
+            "D",
+            "B",
+            "H",
+            "A",
+            "E",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 24147320,
+            "B": 24162150,
+            "C": 27211550,
+            "D": 54401081,
+            "E": 27112010,
+            "F": 26118034,
+            "G": 54401011,
+            "H": 26127140
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "F",
+            "C",
+            "B",
+            "D",
+            "H",
+            "A",
+            "G",
+            "E"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 24147320,
+            "B": 24162150,
+            "C": 27211550,
+            "D": 54401081,
+            "E": 27112010,
+            "F": 26118034,
+            "G": 54401011,
+            "H": 26127140
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "B",
+            "D",
+            "H",
+            "F",
+            "C",
+            "E",
+            "A",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 24147320,
+            "B": 24162150,
+            "C": 27211550,
+            "D": 54401081,
+            "E": 27112010,
+            "F": 26118034,
+            "G": 54401011,
+            "H": 26127140
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "H",
+            "C",
+            "F",
+            "D",
+            "B",
+            "E",
+            "A",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 24147320,
+            "B": 24162150,
+            "C": 27211550,
+            "D": 54401081,
+            "E": 27112010,
+            "F": 26118034,
+            "G": 54401011,
+            "H": 26127140
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    },
+    {
+      "id": "recommendation-3",
+      "task": "recommendation",
+      "pair": 2,
+      "member": "A",
+      "title": "Food set 2 · Person A",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "fail_if_at_least": 4,
+          "unit": "g",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "53260030",
+          "photo": "photo-021",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "B",
+          "food_code": "53209005",
+          "photo": "photo-022",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "C",
+          "food_code": "27212150",
+          "photo": "photo-023",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "D",
+          "food_code": "26137180",
+          "photo": "photo-024",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "27420060",
+          "photo": "photo-025",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "F",
+          "food_code": "26137190",
+          "photo": "photo-026",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "G",
+          "food_code": "13161600",
+          "photo": "photo-027",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "H",
+          "food_code": "13130310",
+          "photo": "photo-028",
+          "compliant": false,
+          "relevant": false
+        }
+      ],
+      "gold": [
+        "E",
+        "G"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "D",
+            "E",
+            "G",
+            "A",
+            "F",
+            "H",
+            "B",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 53209005,
+            "C": 27212150,
+            "D": 26137180,
+            "E": 27416400,
+            "F": 27570310,
+            "G": 13161600,
+            "H": 13110110
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "D",
+            "G",
+            "A",
+            "E",
+            "F",
+            "H",
+            "B",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 53209005,
+            "C": 27212150,
+            "D": 26137180,
+            "E": 27416400,
+            "F": 27570310,
+            "G": 13161600,
+            "H": 13110110
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "D",
+            "E",
+            "G",
+            "A",
+            "F",
+            "H",
+            "C",
+            "B"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 53209005,
+            "C": 27212150,
+            "D": 26137180,
+            "E": 27416400,
+            "F": 27570310,
+            "G": 13161600,
+            "H": 13110110
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "A",
+            "D",
+            "E",
+            "G",
+            "F",
+            "H",
+            "B",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 53209005,
+            "C": 27212150,
+            "D": 26137180,
+            "E": 27416400,
+            "F": 27570310,
+            "G": 13161600,
+            "H": 13110110
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "A",
+            "G",
+            "D",
+            "F",
+            "E",
+            "H",
+            "B",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 53209005,
+            "C": 27212150,
+            "D": 26137180,
+            "E": 27416400,
+            "F": 27570310,
+            "G": 13161600,
+            "H": 13110110
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    },
+    {
+      "id": "recommendation-4",
+      "task": "recommendation",
+      "pair": 2,
+      "member": "B",
+      "title": "Food set 2 · Person B",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "fail_if_at_least": 4,
+          "unit": "g",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "53260030",
+          "photo": "photo-021",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "B",
+          "food_code": "26137190",
+          "photo": "photo-026",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "C",
+          "food_code": "13161600",
+          "photo": "photo-027",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "D",
+          "food_code": "13130310",
+          "photo": "photo-028",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "27420060",
+          "photo": "photo-025",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "F",
+          "food_code": "26137180",
+          "photo": "photo-024",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "G",
+          "food_code": "53209005",
+          "photo": "photo-022",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "H",
+          "food_code": "27212150",
+          "photo": "photo-023",
+          "compliant": false,
+          "relevant": false
+        }
+      ],
+      "gold": [
+        "A",
+        "F"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "E",
+            "A",
+            "C",
+            "B",
+            "F",
+            "H",
+            "D",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 27570310,
+            "C": 13161600,
+            "D": 13110110,
+            "E": 27416400,
+            "F": 26137180,
+            "G": 53209005,
+            "H": 27212150
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "A",
+            "C",
+            "E",
+            "B",
+            "F",
+            "H",
+            "D",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 27570310,
+            "C": 13161600,
+            "D": 13110110,
+            "E": 27416400,
+            "F": 26137180,
+            "G": 53209005,
+            "H": 27212150
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "B",
+            "C",
+            "A",
+            "E",
+            "F",
+            "H",
+            "G",
+            "D"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 27570310,
+            "C": 13161600,
+            "D": 13110110,
+            "E": 27416400,
+            "F": 26137180,
+            "G": 53209005,
+            "H": 27212150
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "A",
+            "C",
+            "F",
+            "E",
+            "B",
+            "D",
+            "H",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 27570310,
+            "C": 13161600,
+            "D": 13110110,
+            "E": 27416400,
+            "F": 26137180,
+            "G": 53209005,
+            "H": 27212150
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "A",
+            "C",
+            "F",
+            "B",
+            "E",
+            "D",
+            "H",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53206030,
+            "B": 27570310,
+            "C": 13161600,
+            "D": 13110110,
+            "E": 27416400,
+            "F": 26137180,
+            "G": 53209005,
+            "H": 27212150
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    },
+    {
+      "id": "recommendation-5",
+      "task": "recommendation",
+      "pair": 3,
+      "member": "A",
+      "title": "Food set 3 · Person A",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "fail_if_at_least": 4,
+          "unit": "g",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "fail_if_at_least": 400,
+          "unit": "kcal",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "53231400",
+          "photo": "photo-029",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "B",
+          "food_code": "56205016",
+          "photo": "photo-030",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "C",
+          "food_code": "26121180",
+          "photo": "photo-031",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "D",
+          "food_code": "74602200",
+          "photo": "photo-032",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "56205410",
+          "photo": "photo-033",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "F",
+          "food_code": "53236000",
+          "photo": "photo-034",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "G",
+          "food_code": "26151190",
+          "photo": "photo-035",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "H",
+          "food_code": "28340630",
+          "photo": "photo-036",
+          "compliant": false,
+          "relevant": false
+        }
+      ],
+      "gold": [
+        "B",
+        "F"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "A",
+            "B",
+            "F",
+            "D",
+            "E",
+            "G",
+            "H",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53233000,
+            "B": 56205018,
+            "C": 26139190,
+            "D": 74602200,
+            "E": 56205410,
+            "F": 53236000,
+            "G": 26151190,
+            "H": 58404030
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "B",
+            "F",
+            "A",
+            "D",
+            "H",
+            "G",
+            "E",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53233000,
+            "B": 56205018,
+            "C": 26139190,
+            "D": 74602200,
+            "E": 56205410,
+            "F": 53236000,
+            "G": 26151190,
+            "H": 58404030
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "A",
+            "B",
+            "F",
+            "D",
+            "H",
+            "G",
+            "E",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53233000,
+            "B": 56205018,
+            "C": 26139190,
+            "D": 74602200,
+            "E": 56205410,
+            "F": 53236000,
+            "G": 26151190,
+            "H": 58404030
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "B",
+            "A",
+            "F",
+            "D",
+            "G",
+            "H",
+            "E",
+            "C"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53233000,
+            "B": 56205018,
+            "C": 26139190,
+            "D": 74602200,
+            "E": 56205410,
+            "F": 53236000,
+            "G": 26151190,
+            "H": 58404030
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "A",
+            "B",
+            "F",
+            "D",
+            "H",
+            "C",
+            "G",
+            "E"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53233000,
+            "B": 56205018,
+            "C": 26139190,
+            "D": 74602200,
+            "E": 56205410,
+            "F": 53236000,
+            "G": 26151190,
+            "H": 58404030
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    },
+    {
+      "id": "recommendation-6",
+      "task": "recommendation",
+      "pair": 3,
+      "member": "B",
+      "title": "Food set 3 · Person B",
+      "query": "Rank eight foods; the top two must satisfy all rules and match this person’s intake-derived relevance.",
+      "rules": [
+        {
+          "condition": "high_cholesterol",
+          "nutrient": "saturated_fat",
+          "fail_if_at_least": 4,
+          "unit": "g",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "hypertension",
+          "nutrient": "sodium",
+          "fail_if_at_least": 460,
+          "unit": "mg",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        },
+        {
+          "condition": "obesity",
+          "nutrient": "calorie",
+          "fail_if_at_least": 400,
+          "unit": "kcal",
+          "basis": "per FNDDS 2017-18 'Quantity not specified' serving (graph attribute serving_g)"
+        }
+      ],
+      "cards": [
+        {
+          "slot": "A",
+          "food_code": "53236000",
+          "photo": "photo-034",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "B",
+          "food_code": "56205016",
+          "photo": "photo-030",
+          "compliant": true,
+          "relevant": false
+        },
+        {
+          "slot": "C",
+          "food_code": "26151190",
+          "photo": "photo-035",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "D",
+          "food_code": "53231400",
+          "photo": "photo-029",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "E",
+          "food_code": "74602200",
+          "photo": "photo-032",
+          "compliant": true,
+          "relevant": true
+        },
+        {
+          "slot": "F",
+          "food_code": "28340630",
+          "photo": "photo-036",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "G",
+          "food_code": "56205410",
+          "photo": "photo-033",
+          "compliant": false,
+          "relevant": false
+        },
+        {
+          "slot": "H",
+          "food_code": "26121180",
+          "photo": "photo-031",
+          "compliant": true,
+          "relevant": true
+        }
+      ],
+      "gold": [
+        "E",
+        "H"
+      ],
+      "models": [
+        {
+          "name": "GCN",
+          "ranking": [
+            "B",
+            "D",
+            "E",
+            "A",
+            "H",
+            "G",
+            "C",
+            "F"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53236000,
+            "B": 56205018,
+            "C": 26151190,
+            "D": 53233000,
+            "E": 74602200,
+            "F": 58404030,
+            "G": 56205410,
+            "H": 26139190
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "LightGCN",
+          "ranking": [
+            "B",
+            "D",
+            "E",
+            "A",
+            "H",
+            "C",
+            "F",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53236000,
+            "B": 56205018,
+            "C": 26151190,
+            "D": 53233000,
+            "E": 74602200,
+            "F": 58404030,
+            "G": 56205410,
+            "H": 26139190
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "SGL",
+          "ranking": [
+            "B",
+            "E",
+            "D",
+            "A",
+            "C",
+            "F",
+            "H",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53236000,
+            "B": 56205018,
+            "C": 26151190,
+            "D": 53233000,
+            "E": 74602200,
+            "F": 58404030,
+            "G": 56205410,
+            "H": 26139190
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "HFRS-DA",
+          "ranking": [
+            "B",
+            "D",
+            "A",
+            "E",
+            "F",
+            "C",
+            "H",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53236000,
+            "B": 56205018,
+            "C": 26151190,
+            "D": 53233000,
+            "E": 74602200,
+            "F": 58404030,
+            "G": 56205410,
+            "H": 26139190
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        },
+        {
+          "name": "MOPI-HFRS",
+          "ranking": [
+            "D",
+            "B",
+            "A",
+            "E",
+            "F",
+            "H",
+            "C",
+            "G"
+          ],
+          "status": "answered",
+          "links": {
+            "A": 53236000,
+            "B": 56205018,
+            "C": 26151190,
+            "D": 53233000,
+            "E": 74602200,
+            "F": 58404030,
+            "G": 56205410,
+            "H": 26139190
+          },
+          "boundary_tie": false,
+          "condition": "Seed 0; image input, rules and original personal context"
+        }
+      ],
+      "explanation": "These paired requests use the same option photos and rules, but complementary relevance labels. Saved runs used the original personal context; this public illustration omits demographics and intake histories. Non-relevant does not mean disliked."
+    }
+  ]
+}
